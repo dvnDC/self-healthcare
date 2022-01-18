@@ -1,2 +1,3 @@
 # self-healthcare
-fdfg
+
+Application for managing aspects related to training and diet. 
