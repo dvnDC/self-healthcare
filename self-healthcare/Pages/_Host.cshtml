@@ -1,0 +1,22 @@
+@page "/"
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Blazor First App</title>
+    <base href="~/"/>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="m-1 p-1">
+    <component type="typeof(self_healthcare.App)" render-mode="ServerPrerendered"/>
+</div>
+<script src="_framework/blazor.server.js"></script>
+</body>
+</html>
