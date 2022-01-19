@@ -1,4 +1,18 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+
 var builder = WebApplication.CreateBuilder(args);
+
+if (builder.Environment.IsDevelopment())
+{
+    builder.Services.AddDbContext<SelfHealthcareContext>(options =>
+        options.UseSqlite(builder.Configuration.GetConnectionString("SelfHealthcareContext")));
+}
+else
+{
+    builder.Services.AddDbContext<SelfHealthcareContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("ProductionSelfHealthcareContext")));
+}
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
