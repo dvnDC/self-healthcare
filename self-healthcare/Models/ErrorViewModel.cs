@@ -1,4 +1,4 @@
-namespace new_self_healthcare.Models;
+namespace self_healthcare.Models;
 
 public class ErrorViewModel
 {

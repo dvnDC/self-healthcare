@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using new_self_healthcare.Models;
+using self_healthcare.Models;
 
-namespace new_self_healthcare.Controllers;
+namespace self_healthcare.Controllers;
 
 public class HomeController : Controller
 {
