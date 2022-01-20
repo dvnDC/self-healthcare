@@ -26,8 +26,4 @@
       <_ContentIncludedByDefault Remove="Views\Movies\Index.cshtml" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Data" />
-    </ItemGroup>
-
 </Project>
