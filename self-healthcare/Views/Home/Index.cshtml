@@ -2,7 +2,20 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div
+    class="bg-image"
+    style="
+  background-image: image-set('Images/background.png');
+    height: 100vh;
+  ">
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-center">
+                <h1 class="text-white mb-0">Page title</h1>
+                <h1 class="display-4">Welcome</h1>
+                
+                <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+            </div>
+        </div>
+    </div>
 </div>
