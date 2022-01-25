@@ -26,4 +26,9 @@
       <_ContentIncludedByDefault Remove="Views\Movies\Index.cshtml" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Include="wwwroot\Images\background.png" />
+      <None Include="wwwroot\Images\wp10193125.jpg" />
+    </ItemGroup>
+
 </Project>
