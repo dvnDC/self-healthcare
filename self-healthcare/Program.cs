@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using self_healthcare.Models;
+using Microsoft.AspNetCore.Identity;
+using self_healthcare.Areas.Identity.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,11 @@ if (builder.Environment.IsDevelopment())
 {
     builder.Services.AddDbContext<SelfHealthcareContext>(options =>
         options.UseSqlite(builder.Configuration.GetConnectionString("SelfHealthcareContext")));
+    
+    builder.Services.AddDefaultIdentity<WebApp1User>(options => options.SignIn.RequireConfirmedAccount = true)
+        .AddEntityFrameworkStores<IdentityDataContext>();
+    builder.Services.AddDbContext<IdentityDataContext>(options =>
+        options.UseSqlite(builder.Configuration.GetConnectionString("IdentityDataContextConnection")));
 }
 else
 {
@@ -39,11 +46,11 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
+app.MapRazorPages();
 app.Run();

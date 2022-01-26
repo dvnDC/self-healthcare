@@ -10,13 +10,36 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace new_self_healthcare.Migrations
 {
     [DbContext(typeof(SelfHealthcareContext))]
-    [Migration("20220119154031_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20220126015450_CreateSchema")]
+    partial class CreateSchema
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.1");
+
+            modelBuilder.Entity("self_healthcare.Models.Food", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Calories")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ServingSizeGrams")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Food");
+                });
 
             modelBuilder.Entity("self_healthcare.Models.Movie", b =>
                 {
@@ -29,7 +52,7 @@ namespace new_self_healthcare.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<decimal>("Price")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("decimal(18, 2)");
 
                     b.Property<DateTime>("ReleaseDate")
                         .HasColumnType("TEXT");
