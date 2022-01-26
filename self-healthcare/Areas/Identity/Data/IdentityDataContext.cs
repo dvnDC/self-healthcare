@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using new_self_healthcare.Areas.Identity.Data;
+using self_healthcare.Areas.Identity.Data;
 
-namespace new_self_healthcare.Areas.Identity.Data;
+namespace self_healthcare.Areas.Identity.Data;
 
 public class IdentityDataContext : IdentityDbContext<WebApp1User>
 {
@@ -11,6 +11,7 @@ public class IdentityDataContext : IdentityDbContext<WebApp1User>
         : base(options)
     {
     }
+    public DbSet<self_healthcare.Areas.Identity.Data.WebApp1User> WebApp1User { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {

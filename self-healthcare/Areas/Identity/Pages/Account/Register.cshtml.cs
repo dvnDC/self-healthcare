@@ -18,9 +18,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using new_self_healthcare.Areas.Identity.Data;
+using self_healthcare.Areas.Identity.Data;
 
-namespace new_self_healthcare.Areas.Identity.Pages.Account
+namespace self_healthcare.Areas.Identity.Pages.Account
 {
     public class RegisterModel : PageModel
     {

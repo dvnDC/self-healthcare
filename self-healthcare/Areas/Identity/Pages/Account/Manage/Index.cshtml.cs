@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using new_self_healthcare.Areas.Identity.Data;
+using self_healthcare.Areas.Identity.Data;
 
-namespace new_self_healthcare.Areas.Identity.Pages.Account.Manage
+namespace self_healthcare.Areas.Identity.Pages.Account.Manage
 {
     public class IndexModel : PageModel
     {

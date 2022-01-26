@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 
-namespace new_self_healthcare.Areas.Identity.Data;
+namespace self_healthcare.Areas.Identity.Data;
 
 // Add profile data for application users by adding properties to the WebApp1User class
 public class WebApp1User : IdentityUser
