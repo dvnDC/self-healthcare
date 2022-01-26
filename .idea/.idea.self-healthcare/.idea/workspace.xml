@@ -7,15 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53de4d2f-d45c-499e-b8b4-3d57efe98ce6" name="Changes" comment="Update displaying format of data">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.self-healthcare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.self-healthcare/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/Views/Movies/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/Views/Movies/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/bin/Debug/net6.0/ref/self-healthcare.dll" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/bin/Debug/net6.0/ref/self-healthcare.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/bin/Debug/net6.0/self-healthcare.dll" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/bin/Debug/net6.0/self-healthcare.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/bin/Debug/net6.0/self-healthcare.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/bin/Debug/net6.0/self-healthcare.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/ref/self-healthcare.dll" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/ref/self-healthcare.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/self-healthcare.dll" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/self-healthcare.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/self-healthcare.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/self-healthcare.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-healthcare/self-healthcare.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/self-healthcare.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,40 +32,29 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/MoviesController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6dbdce1e140bc4e69d7e636b3b1eda3539265b8dc5da948369d43de0c28bb1/WebApplicationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Models/Movie.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/MoviesController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/self-healthcare/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Models/Food.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Data/SelfHealthcareContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/MoviesController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Models/Movie.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/MoviesController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Data/SelfHealthcareContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Movies/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Models/Food.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bef2c1437eec48c7b5d812f6bf85e03d107e8/d6/434cdfb8/SqlColumnEncryptionCertificateStoreProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6dbdce1e140bc4e69d7e636b3b1eda3539265b8dc5da948369d43de0c28bb1/WebApplicationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/self-healthcare/Models/ErrorViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/self-healthcare/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Models/Food.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/self-healthcare/Models/Movie.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2f10f2a1f3bbdbc3696823de50e6726ba2ae7f8cf2e6dfc487a9c0b8c1f7b4/ConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/self-healthcare/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/self-healthcare/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/self-healthcare/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bef2c1437eec48c7b5d812f6bf85e03d107e8/d6/434cdfb8/SqlColumnEncryptionCertificateStoreProvider.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/self-healthcare/Models/ErrorViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Models/Movie.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/MoviesController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/MoviesController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/self-healthcare/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/MoviesController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/MoviesController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/MoviesController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/self-healthcare/Models/Movie.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/self-healthcare/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/self-healthcare/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/self-healthcare/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Movies/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/self-healthcare/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Models/Food.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -272,7 +253,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="1-get-started" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>

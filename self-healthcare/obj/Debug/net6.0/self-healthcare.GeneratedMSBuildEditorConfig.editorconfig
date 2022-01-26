@@ -15,6 +15,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Food/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9vZC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Food/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9vZC9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Food/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9vZC9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Food/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9vZC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Food/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9vZC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/HelloWorld/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGVsbG9Xb3JsZC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

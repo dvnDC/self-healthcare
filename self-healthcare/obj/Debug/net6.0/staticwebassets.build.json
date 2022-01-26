@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NERzZ9shhOKdgyIjbsxEHOXy8LL0BrOuQkOBhn/QLoQ=",
+  "Hash": "awKfZnVa0nvwykhMt3nqEkcrVbHOmUyrIgVMFZnGqo8=",
   "Source": "self-healthcare",
   "BasePath": "_content/self-healthcare",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/wwwroot/Images/background.png",
+      "SourceId": "self-healthcare",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/wwwroot/",
+      "BasePath": "_content/self-healthcare",
+      "RelativePath": "Images/background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/background.png"
     },
     {
       "Identity": "/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/wwwroot/js/site.js",
