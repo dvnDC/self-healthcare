@@ -4,3 +4,4 @@ Microsoft.EntityFrameworkCore.Sqlite ~ 6.0.1
 Microsoft.EntityFrameworkCore.SqlServer ~ 6.0.1
 Microsoft.VisualStudio.Web.CodeGeneration.Design ~ 6.0.1 
 Microsoft.AspNetCore.Identity.UI ~ 6.0.1
+Microsoft.AspNetCore.Identity.EntityFrameworkCore ~ 6.0.1
