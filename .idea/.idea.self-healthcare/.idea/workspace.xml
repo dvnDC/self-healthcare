@@ -6,9 +6,7 @@
     <projectFile profileName="new_self_healthcare">self-healthcare/self-healthcare.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53de4d2f-d45c-499e-b8b4-3d57efe98ce6" name="Changes" comment="Update displaying format of data">
-      <change beforePath="$PROJECT_DIR$/self-healthcare/self-healthcare.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/self-healthcare.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="53de4d2f-d45c-499e-b8b4-3d57efe98ce6" name="Changes" comment="System files update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/self-healthcare/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Models/Food.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Models/Food.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Models/Food.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bef2c1437eec48c7b5d812f6bf85e03d107e8/d6/434cdfb8/SqlColumnEncryptionCertificateStoreProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6dbdce1e140bc4e69d7e636b3b1eda3539265b8dc5da948369d43de0c28bb1/WebApplicationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
@@ -233,7 +232,35 @@
       <option name="project" value="LOCAL" />
       <updated>1642649425305</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update csproj">
+      <created>1643158623608</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1643158623608</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add migration for Food table">
+      <created>1643158642722</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1643158642722</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Update Food model">
+      <created>1643158660291</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1643158660291</updated>
+    </task>
+    <task id="LOCAL-00017" summary="System files update">
+      <created>1643158691631</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1643158691631</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,12 +301,15 @@
     <MESSAGE value="Migrate to .NET Core MVC version 6" />
     <MESSAGE value="Migrate to .NET Core 6 MVC" />
     <MESSAGE value="Adds scaffold test pages" />
-    <MESSAGE value="Update csproj" />
     <MESSAGE value="System files" />
     <MESSAGE value="Add SQLite database with test seed file" />
     <MESSAGE value="Add seed method" />
     <MESSAGE value="Add search option in Index" />
     <MESSAGE value="Update displaying format of data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update displaying format of data" />
+    <MESSAGE value="Update csproj" />
+    <MESSAGE value="Add migration for Food table" />
+    <MESSAGE value="Update Food model" />
+    <MESSAGE value="System files update" />
+    <option name="LAST_COMMIT_MESSAGE" value="System files update" />
   </component>
 </project>
