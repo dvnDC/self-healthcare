@@ -70,15 +70,17 @@ namespace new_self_healthcare.Migrations
 
             modelBuilder.Entity("self_healthcare.Models.Diet", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("DietID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("Calories")
                         .HasColumnType("INTEGER");
 
+                    b.Property<int>("FoodId")
+                        .HasColumnType("INTEGER");
+
                     b.Property<DateTime>("Inserted")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")
@@ -88,12 +90,14 @@ namespace new_self_healthcare.Migrations
                     b.Property<int>("ServingSizeGrams")
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("UserForeignKey")
+                    b.Property<string>("WebApp1UserId")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("Id");
+                    b.HasKey("DietID");
 
-                    b.HasIndex("UserForeignKey");
+                    b.HasIndex("FoodId");
+
+                    b.HasIndex("WebApp1UserId");
 
                     b.ToTable("Diet");
                 });
@@ -147,16 +151,29 @@ namespace new_self_healthcare.Migrations
 
             modelBuilder.Entity("self_healthcare.Models.Diet", b =>
                 {
+                    b.HasOne("self_healthcare.Models.Food", "Food")
+                        .WithMany("Diets")
+                        .HasForeignKey("FoodId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("self_healthcare.Areas.Identity.Data.WebApp1User", "WebApp1User")
-                        .WithMany("Diet")
-                        .HasForeignKey("UserForeignKey");
+                        .WithMany("Diets")
+                        .HasForeignKey("WebApp1UserId");
+
+                    b.Navigation("Food");
 
                     b.Navigation("WebApp1User");
                 });
 
             modelBuilder.Entity("self_healthcare.Areas.Identity.Data.WebApp1User", b =>
                 {
-                    b.Navigation("Diet");
+                    b.Navigation("Diets");
+                });
+
+            modelBuilder.Entity("self_healthcare.Models.Food", b =>
+                {
+                    b.Navigation("Diets");
                 });
 #pragma warning restore 612, 618
         }
