@@ -1,4 +1,4 @@
-#nullable disable
+// #nullable disable
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -73,7 +73,7 @@ namespace self_healthcare.Controllers
             }
 
             var diet = await _context.Diet
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.DietID == id);
             if (diet == null)
             {
                 return NotFound();
@@ -119,7 +119,7 @@ namespace self_healthcare.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,UserForeignKey,Name,ServingSizeGrams,Calories")] Diet diet)
         {
-            if (id != diet.Id)
+            if (id != diet.DietID)
             {
                 return NotFound();
             }
@@ -133,7 +133,7 @@ namespace self_healthcare.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!DietExists(diet.Id))
+                    if (!DietExists(diet.DietID))
                     {
                         return NotFound();
                     }
@@ -155,7 +155,7 @@ namespace self_healthcare.Controllers
             }
 
             var diet = await _context.Diet
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.DietID == id);
             if (diet == null)
             {
                 return NotFound();
@@ -176,7 +176,7 @@ namespace self_healthcare.Controllers
 
         private bool DietExists(int id)
         {
-            return _context.Diet.Any(e => e.Id == id);
+            return _context.Diet.Any(e => e.DietID == id);
         }
     }
 }
