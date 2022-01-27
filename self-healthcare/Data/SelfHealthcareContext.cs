@@ -15,5 +15,6 @@ using self_healthcare.Models;
 
         public DbSet<self_healthcare.Models.Movie> Movie { get; set; }
         public DbSet<self_healthcare.Models.Food> Food { get; set; }
+        public DbSet<self_healthcare.Models.Diet> Diet { get; set; }
         
     }
