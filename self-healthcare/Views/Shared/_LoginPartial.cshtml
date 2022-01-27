@@ -8,6 +8,9 @@
     @if (SignInManager.IsSignedIn(User))
     {
         <li class="nav-item">
+            <a class="nav-link px-lg-3 py-3 py-lg-4" asp-area="Identity" asp-controller="Diets" asp-action="Index">Make Diet</a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link px-lg-3 py-3 py-lg-4" id="manage" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
                 @UserManager.GetUserName(User)
             </a>
