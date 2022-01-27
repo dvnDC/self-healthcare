@@ -47,6 +47,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Diets/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlldHMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Diets/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlldHMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Diets/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlldHMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Diets/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlldHMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Diets/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlldHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Food/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9vZC9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
