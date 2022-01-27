@@ -32,4 +32,12 @@
       <None Include="wwwroot\Images\background.png" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Remove="Views\Home\About.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Views\Home\About.cshtml.cs" />
+    </ItemGroup>
+
 </Project>

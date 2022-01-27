@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YAATkscNaAz8NA2Bp/+8mRCzIVI8IkDvuwS0QA0gmRY=",
+  "Hash": "EewlOAHR45Il6zYZ6CUS4Os/jv+Jp4uN1aIyBNqGD3A=",
   "Source": "self-healthcare",
   "BasePath": "_content/self-healthcare",
   "Mode": "Default",
@@ -1154,6 +1154,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Images/bg_about.png"
+    },
+    {
+      "Identity": "/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/wwwroot/Images/bg3.png",
+      "SourceId": "self-healthcare",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/wwwroot/",
+      "BasePath": "_content/self-healthcare",
+      "RelativePath": "Images/bg3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/bg3.png"
     },
     {
       "Identity": "/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/wwwroot/js/scripts.js",

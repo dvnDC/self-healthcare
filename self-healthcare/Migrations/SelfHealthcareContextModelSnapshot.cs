@@ -22,17 +22,15 @@ namespace new_self_healthcare.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Calories")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
+                    b.Property<int>("Calories")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("ServingSizeGrams")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
+                    b.Property<int>("ServingSizeGrams")
+                        .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
