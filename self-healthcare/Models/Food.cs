@@ -14,6 +14,7 @@ public class Food
     public string Name { get; set; }
     public int ServingSizeGrams { get; set; }
     public int Calories { get; set; }
+    public ICollection<Diet> Diets { get; set; }
     
 }
    
