@@ -20,18 +20,50 @@ namespace self_healthcare.Controllers
         }
 
         // GET: Food
-        public async Task<IActionResult> Index(string searchString)
-        {
-            var food = from f in _context.Food
-                select f;
-
-            if (!String.IsNullOrEmpty(searchString))
+        public async Task<IActionResult> Index (string sortOrder, string currentFilter, string searchString, int? pageNumber)
             {
-                food = food.Where(s => s.Name!.Contains(searchString));
+                ViewData["CurrentSort"] = sortOrder;
+                ViewData["NameSortParm"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+                ViewData["DateSortParm"] = sortOrder == "Date" ? "date_desc" : "Date";
+                
+
+                if (searchString != null)
+                {
+                    pageNumber = 1;
+                }
+                else
+                {
+                    searchString = currentFilter;
+                }
+                
+                ViewData["CurrentFilter"] = searchString;
+
+                var food = from f in _context.Food
+                    select f;
+                if (!String.IsNullOrEmpty(searchString))
+                {
+                    food = food.Where(f => f.Name!.Contains(searchString));
+                }
+                switch (sortOrder)
+                {
+                    case "name_desc":
+                        food = food.OrderByDescending(s => s.Name);
+                        break;
+                    case "Date":
+                        food = food.OrderBy(s => s.Calories);
+                        break;
+                    case "date_desc":
+                        food = food.OrderByDescending(s => s.Calories);
+                        break;
+                    default:
+                        food = food.OrderBy(s => s.Name);
+                        break;
+                }
+                
+                int pageSize = 20;
+                return View(await PaginatedList<Food>.CreateAsync(food.AsNoTracking(), pageNumber ?? 1, pageSize));
             }
 
-            return View(await food.ToListAsync());
-        }
 
         // GET: Food/Details/5
         public async Task<IActionResult> Details(int? id)

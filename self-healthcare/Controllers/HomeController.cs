@@ -18,15 +18,12 @@ public class HomeController : Controller
         return View();
     }
     
-    public IActionResult About()
+    
+    public IActionResult Contact()
     {
         return View();
     }
 
-    public IActionResult Privacy() // is not used at the moment
-    {
-        return View();
-    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
