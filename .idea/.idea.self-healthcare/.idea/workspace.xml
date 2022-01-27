@@ -6,36 +6,19 @@
     <projectFile profileName="new_self_healthcare">self-healthcare/self-healthcare.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53de4d2f-d45c-499e-b8b4-3d57efe98ce6" name="Changes" comment="Add About.cshtml">
-      <change afterPath="$PROJECT_DIR$/self-healthcare/PaginatedList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-healthcare/Views/Home/About.cshtml.cs" afterDir="false" />
+    <list default="true" id="53de4d2f-d45c-499e-b8b4-3d57efe98ce6" name="Changes" comment="Add sorting and pagination for Food index">
+      <change afterPath="$PROJECT_DIR$/self-healthcare/Models/Diet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.self-healthcare/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.self-healthcare/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.self-healthcare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.self-healthcare/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/Controllers/FoodController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/Controllers/FoodController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/Migrations/SelfHealthcareContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/Migrations/SelfHealthcareContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/Models/Food.cs" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/Models/Food.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/SelfHealthcareContext-329af184-13f2-4563-b31e-20e8e5855ba4.db" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/SelfHealthcareContext-329af184-13f2-4563-b31e-20e8e5855ba4.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/SelfHealthcareContext-329af184-13f2-4563-b31e-20e8e5855ba4.db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/SelfHealthcareContext-329af184-13f2-4563-b31e-20e8e5855ba4.db-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/SelfHealthcareContext-329af184-13f2-4563-b31e-20e8e5855ba4.db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/SelfHealthcareContext-329af184-13f2-4563-b31e-20e8e5855ba4.db-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/Views/Food/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/Views/Food/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/Views/Home/About.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/Views/Home/Privacy.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/Views/Shared/_Footer.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/Views/Shared/_Footer.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/Views/Shared/_Navbar.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/Views/Shared/_Navbar.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-healthcare/Views/Home/Contact.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/Views/Home/Contact.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/self-healthcare/bin/Debug/net6.0/ref/self-healthcare.dll" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/bin/Debug/net6.0/ref/self-healthcare.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/self-healthcare/bin/Debug/net6.0/self-healthcare.dll" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/bin/Debug/net6.0/self-healthcare.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/self-healthcare/bin/Debug/net6.0/self-healthcare.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/bin/Debug/net6.0/self-healthcare.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/bin/Debug/net6.0/self-healthcare.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/bin/Debug/net6.0/self-healthcare.staticwebassets.runtime.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/ref/self-healthcare.dll" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/ref/self-healthcare.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/self-healthcare.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/self-healthcare.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/self-healthcare.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/self-healthcare.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/self-healthcare.dll" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/self-healthcare.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/self-healthcare.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/self-healthcare.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/self-healthcare/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/obj/staticwebassets.pack.sentinel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-healthcare/self-healthcare.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/self-healthcare.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-healthcare/wwwroot/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/self-healthcare/wwwroot/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +45,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6dbdce1e140bc4e69d7e636b3b1eda3539265b8dc5da948369d43de0c28bb1/WebApplicationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Food/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../self-healthcare-study/self-healthcare/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -76,8 +61,12 @@
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/self-healthcare/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Models/Food.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Home/Contact.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Shared/_Footer.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bef2c1437eec48c7b5d812f6bf85e03d107e8/d6/434cdfb8/SqlColumnEncryptionCertificateStoreProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/538811d0fba15c61b743814ea8b7193d48cfbb84a1a53c5db2512b1b329330/DbSet.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/self-healthcare/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -86,6 +75,7 @@
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Migrations/SelfHealthcareContextModelSnapshot.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/self-healthcare/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/self-healthcare/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -94,6 +84,7 @@
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Shared/_Navbar.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -101,6 +92,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/self-healthcare/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Models/Food.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../self-healthcare-study/self-healthcare/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -109,6 +101,9 @@
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Shared/_LoginPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Controllers/FoodController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/self-healthcare/Models/Movie.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Shared/_LoginPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
@@ -200,7 +195,7 @@
       <workItem from="1642557561825" duration="535000" />
       <workItem from="1642630616686" duration="8267000" />
       <workItem from="1643248822319" duration="6106000" />
-      <workItem from="1643261257934" duration="10445000" />
+      <workItem from="1643261257934" duration="12687000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1642473225922</created>
@@ -468,7 +463,49 @@
       <option name="project" value="LOCAL" />
       <updated>1643263120267</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="System files">
+      <created>1643273118459</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1643273118459</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Change type of variables">
+      <created>1643273154321</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1643273154321</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Database migrate">
+      <created>1643273163842</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1643273163842</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Add Contact view for Home controller">
+      <created>1643273181715</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1643273181715</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Add PaginatedList class">
+      <created>1643273197906</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1643273197906</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Add sorting and pagination for Food index">
+      <created>1643273268343</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1643273268343</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,11 +539,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Add search option in Index" />
-    <MESSAGE value="Update displaying format of data" />
-    <MESSAGE value="Update csproj" />
-    <MESSAGE value="Add migration for Food table" />
-    <MESSAGE value="Update Food model" />
     <MESSAGE value="System files update" />
     <MESSAGE value="Add Microsoft.AspNetCore.Identity.UI" />
     <MESSAGE value="Generated files using Identity" />
@@ -518,7 +550,6 @@
     <MESSAGE value="Configure Identity for SQLite" />
     <MESSAGE value="Add new migrations and DB" />
     <MESSAGE value="Update system files" />
-    <MESSAGE value="System files" />
     <MESSAGE value="Add Navbar partial" />
     <MESSAGE value="Change nav-item style" />
     <MESSAGE value="Create custom style.css" />
@@ -527,6 +558,12 @@
     <MESSAGE value="Add action About with View return" />
     <MESSAGE value="Rebuild Index.cshtml" />
     <MESSAGE value="Add About.cshtml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add About.cshtml" />
+    <MESSAGE value="System files" />
+    <MESSAGE value="Change type of variables" />
+    <MESSAGE value="Database migrate" />
+    <MESSAGE value="Add Contact view for Home controller" />
+    <MESSAGE value="Add PaginatedList class" />
+    <MESSAGE value="Add sorting and pagination for Food index" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add sorting and pagination for Food index" />
   </component>
 </project>
