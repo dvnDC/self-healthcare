@@ -12,7 +12,6 @@ namespace self_healthcare.Areas.Identity.Data;
 public class WebApp1User : IdentityUser
 {
     
-    [Required]
-    public virtual ICollection<Diet> Diet { get; set; }
+    public ICollection<Diet> Diets { get; set; }
 }
 
