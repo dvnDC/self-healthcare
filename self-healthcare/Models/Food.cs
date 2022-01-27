@@ -9,9 +9,11 @@ namespace self_healthcare.Models;
 public class Food
 {
     public int  Id { get; set; }
+    [Required]
+    [StringLength(50)]
     public string Name { get; set; }
-    public string ServingSizeGrams { get; set; }
-    public string Calories { get; set; }
+    public int ServingSizeGrams { get; set; }
+    public int Calories { get; set; }
     
 }
    
