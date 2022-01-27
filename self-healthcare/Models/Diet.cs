@@ -7,15 +7,15 @@ namespace self_healthcare.Models;
 public class Diet
 {
     
-    [Key]
-    public int Id { get; set; }
-    [ForeignKey("UserForeignKey")]
-    public WebApp1User WebApp1User { get; set; }
-    
+    public int DietID { get; set; }
+    // public int Id { get; set; }             // Food ID
+    // public string WebApp1UserId { get; set; }
     public string Name { get; set; }
     public int ServingSizeGrams { get; set; }
     public int Calories { get; set; }
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public DateTime Inserted { get; set; }
+    
+    public Food Food { get; set; }
+    public WebApp1User WebApp1User { get; set; }
     
 }
