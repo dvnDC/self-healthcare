@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KX5bQTAkoB5gPhzJ1zcYHCIcFx4S7Md2jrYzAfW8OJh9TH0Zi5wnfRSM32xYekQhIret3Mmb42h7GHwrF8xkzg==",
+  "dgSpecHash": "ESmL/Foq4AyZlR1wp5KKW8wnO7FFAUMhkB7INtPXPpwRqghIMUhoxi2OS2zD50EM2HJ+ZAaa55v+086GGo3zGw==",
   "success": true,
   "projectFilePath": "/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/self-healthcare.csproj",
   "expectedPackageFiles": [
+    "/home/dvn/.nuget/packages/anglesharp/1.0.0-alpha-844/anglesharp.1.0.0-alpha-844.nupkg.sha512",
     "/home/dvn/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/dvn/.nuget/packages/messagepack/2.1.152/messagepack.2.1.152.nupkg.sha512",
     "/home/dvn/.nuget/packages/messagepack.annotations/2.1.152/messagepack.annotations.2.1.152.nupkg.sha512",
@@ -189,7 +190,15 @@
     "/home/dvn/.nuget/packages/system.threading.timer/4.3.0/system.threading.timer.4.3.0.nupkg.sha512",
     "/home/dvn/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512",
     "/home/dvn/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "/home/dvn/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
+    "/home/dvn/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
+    "/home/dvn/.nuget/packages/xunit/2.4.2-pre.12/xunit.2.4.2-pre.12.nupkg.sha512",
+    "/home/dvn/.nuget/packages/xunit.abstractions/2.0.3/xunit.abstractions.2.0.3.nupkg.sha512",
+    "/home/dvn/.nuget/packages/xunit.analyzers/0.10.0/xunit.analyzers.0.10.0.nupkg.sha512",
+    "/home/dvn/.nuget/packages/xunit.assert/2.4.2-pre.12/xunit.assert.2.4.2-pre.12.nupkg.sha512",
+    "/home/dvn/.nuget/packages/xunit.core/2.4.2-pre.12/xunit.core.2.4.2-pre.12.nupkg.sha512",
+    "/home/dvn/.nuget/packages/xunit.extensibility.core/2.4.2-pre.12/xunit.extensibility.core.2.4.2-pre.12.nupkg.sha512",
+    "/home/dvn/.nuget/packages/xunit.extensibility.execution/2.4.2-pre.12/xunit.extensibility.execution.2.4.2-pre.12.nupkg.sha512",
+    "/home/dvn/.nuget/packages/xunit.runner.visualstudio/2.4.3/xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
   "logs": []
 }

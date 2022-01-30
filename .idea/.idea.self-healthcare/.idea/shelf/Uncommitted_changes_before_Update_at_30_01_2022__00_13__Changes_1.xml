@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Update_at_30_01_2022,_00_13_[Changes]1" date="1643498032192" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.self-healthcare/.idea/shelf/Uncommitted_changes_before_Update_at_30_01_2022,_00_13_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 30/01/2022, 00:13 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="self-healthcare/bin/Debug/net6.0/self-healthcare.pdb" />
+    <option name="AFTER_PATH" value="self-healthcare/bin/Debug/net6.0/self-healthcare.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.self-healthcare/.idea/shelf/Uncommitted_changes_before_Update_at_30_01_2022,_00_13_[Changes]1/self-healthcare.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="self-healthcare/obj/Debug/net6.0/self-healthcare.dll" />
+    <option name="AFTER_PATH" value="self-healthcare/obj/Debug/net6.0/self-healthcare.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.self-healthcare/.idea/shelf/Uncommitted_changes_before_Update_at_30_01_2022,_00_13_[Changes]1/self-healthcare.dll" />
+  </binary>
+</changelist>
