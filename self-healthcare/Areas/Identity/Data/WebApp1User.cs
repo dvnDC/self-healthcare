@@ -11,7 +11,5 @@ namespace self_healthcare.Areas.Identity.Data;
 // Add profile data for application users by adding properties to the WebApp1User class
 public class WebApp1User : IdentityUser
 {
-    
-    public ICollection<Diet> Diets { get; set; }
 }
 

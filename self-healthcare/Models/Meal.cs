@@ -6,9 +6,9 @@ using System.Linq;
 
 namespace self_healthcare.Models;
 
-public class Food
+public class Meal
 {
-    public int  Id { get; set; }
+    public int  MealID { get; set; }
     [Required]
     [StringLength(50)]
     public string Name { get; set; }
@@ -17,5 +17,6 @@ public class Food
     [Required]
     public int Calories { get; set; }
     
-}
-   
+    public Diet Diet { get; set; }
+    }
+    
