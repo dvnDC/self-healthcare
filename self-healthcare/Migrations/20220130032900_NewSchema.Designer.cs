@@ -10,92 +10,29 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace new_self_healthcare.Migrations
 {
     [DbContext(typeof(SelfHealthcareContext))]
-    [Migration("20220127175924_AddInsertedColIntoDiet")]
-    partial class AddInsertedColIntoDiet
+    [Migration("20220130032900_NewSchema")]
+    partial class NewSchema
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.1");
 
-            modelBuilder.Entity("self_healthcare.Areas.Identity.Data.WebApp1User", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("TEXT");
-
-                    b.Property<int>("AccessFailedCount")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("ConcurrencyStamp")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Email")
-                        .HasColumnType("TEXT");
-
-                    b.Property<bool>("EmailConfirmed")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<bool>("LockoutEnabled")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<DateTimeOffset?>("LockoutEnd")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("NormalizedEmail")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("NormalizedUserName")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("PasswordHash")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("PhoneNumber")
-                        .HasColumnType("TEXT");
-
-                    b.Property<bool>("PhoneNumberConfirmed")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("SecurityStamp")
-                        .HasColumnType("TEXT");
-
-                    b.Property<bool>("TwoFactorEnabled")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("UserName")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("WebApp1User");
-                });
-
             modelBuilder.Entity("self_healthcare.Models.Diet", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("DietID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("Calories")
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("Inserted")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")
                         .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("ServingSizeGrams")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("UserForeignKey")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserForeignKey");
+                    b.HasKey("DietID");
 
                     b.ToTable("Diet");
                 });
@@ -120,6 +57,33 @@ namespace new_self_healthcare.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Food");
+                });
+
+            modelBuilder.Entity("self_healthcare.Models.Meal", b =>
+                {
+                    b.Property<int>("MealID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Calories")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("DietID")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("ServingSizeGrams")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("MealID");
+
+                    b.HasIndex("DietID");
+
+                    b.ToTable("Meal");
                 });
 
             modelBuilder.Entity("self_healthcare.Models.Movie", b =>
@@ -147,18 +111,20 @@ namespace new_self_healthcare.Migrations
                     b.ToTable("Movie");
                 });
 
-            modelBuilder.Entity("self_healthcare.Models.Diet", b =>
+            modelBuilder.Entity("self_healthcare.Models.Meal", b =>
                 {
-                    b.HasOne("self_healthcare.Areas.Identity.Data.WebApp1User", "WebApp1User")
-                        .WithMany("Diet")
-                        .HasForeignKey("UserForeignKey");
+                    b.HasOne("self_healthcare.Models.Diet", "Diet")
+                        .WithMany("Meal")
+                        .HasForeignKey("DietID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Navigation("WebApp1User");
+                    b.Navigation("Diet");
                 });
 
-            modelBuilder.Entity("self_healthcare.Areas.Identity.Data.WebApp1User", b =>
+            modelBuilder.Entity("self_healthcare.Models.Diet", b =>
                 {
-                    b.Navigation("Diet");
+                    b.Navigation("Meal");
                 });
 #pragma warning restore 612, 618
         }

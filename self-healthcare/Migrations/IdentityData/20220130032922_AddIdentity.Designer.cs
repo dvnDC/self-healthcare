@@ -11,8 +11,8 @@ using self_healthcare.Areas.Identity.Data;
 namespace new_self_healthcare.Migrations.IdentityData
 {
     [DbContext(typeof(IdentityDataContext))]
-    [Migration("20220126020604_CreateIdentitySchema")]
-    partial class CreateIdentitySchema
+    [Migration("20220130032922_AddIdentity")]
+    partial class AddIdentity
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

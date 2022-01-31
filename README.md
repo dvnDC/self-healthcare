@@ -1,3 +1,3 @@
-# self-healthcare
+# FoodAll
 
-Application for managing aspects related to training and diet. 
+Diet management application with a built-in product database.

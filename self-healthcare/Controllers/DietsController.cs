@@ -1,14 +1,12 @@
-// #nullable disable
+#nullable disable
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using self_healthcare.Models;
-using self_healthcare.Areas.Identity.Data;
 
 namespace self_healthcare.Controllers
 {
@@ -18,53 +16,16 @@ namespace self_healthcare.Controllers
 
         public DietsController(SelfHealthcareContext context)
         {
-            _context = context; }
+            _context = context;
+        }
 
-        public async Task<IActionResult> Index (string sortOrder, string currentFilter, string searchString, int? pageNumber)
-            {
-                ViewData["CurrentSort"] = sortOrder;
-                ViewData["NameSortParm"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
-                ViewData["DateSortParm"] = sortOrder == "Date" ? "date_desc" : "Date";
-                
+        // GET: Diets
+        public async Task<IActionResult> Index()
+        {
+            return View(await _context.Diet.ToListAsync());
+        }
 
-                if (searchString != null)
-                {
-                    pageNumber = 1;
-                }
-                else
-                {
-                    searchString = currentFilter;
-                }
-                
-                ViewData["CurrentFilter"] = searchString;
-
-                var diet = from f in _context.Diet
-                    select f;
-                if (!String.IsNullOrEmpty(searchString))
-                {
-                    diet = diet.Where(f => f.Name!.Contains(searchString));
-                }
-                switch (sortOrder)
-                {
-                    case "name_desc":
-                        diet = diet.OrderByDescending(s => s.Name);
-                        break;
-                    case "Date":
-                        diet = diet.OrderBy(s => s.Calories);
-                        break;
-                    case "date_desc":
-                        diet = diet.OrderByDescending(s => s.Calories);
-                        break;
-                    default:
-                        diet = diet.OrderBy(s => s.Name);
-                        break;
-                }
-                
-                int pageSize = 10;
-                return View(await PaginatedList<Diet>.CreateAsync(diet.AsNoTracking(), pageNumber ?? 1, pageSize));
-            }
-
-
+        // GET: Diets/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -82,14 +43,18 @@ namespace self_healthcare.Controllers
             return View(diet);
         }
 
+        // GET: Diets/Create
         public IActionResult Create()
         {
             return View();
         }
 
+        // POST: Diets/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,ServingSizeGrams,Calories")] Diet diet)
+        public async Task<IActionResult> Create([Bind("DietID,Name,ServingSizeGrams,Calories,Inserted")] Diet diet)
         {
             if (ModelState.IsValid)
             {
@@ -100,13 +65,14 @@ namespace self_healthcare.Controllers
             return View(diet);
         }
 
+        // GET: Diets/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
-        
+
             var diet = await _context.Diet.FindAsync(id);
             if (diet == null)
             {
@@ -115,9 +81,12 @@ namespace self_healthcare.Controllers
             return View(diet);
         }
 
+        // POST: Diets/Edit/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,UserForeignKey,Name,ServingSizeGrams,Calories")] Diet diet)
+        public async Task<IActionResult> Edit(int id, [Bind("DietID,Name,ServingSizeGrams,Calories,Inserted")] Diet diet)
         {
             if (id != diet.DietID)
             {
@@ -147,6 +116,7 @@ namespace self_healthcare.Controllers
             return View(diet);
         }
 
+        // GET: Diets/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -164,6 +134,7 @@ namespace self_healthcare.Controllers
             return View(diet);
         }
 
+        // POST: Diets/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

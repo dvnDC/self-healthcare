@@ -8,14 +8,11 @@ public class Diet
 {
     
     public int DietID { get; set; }
-    // public int Id { get; set; }             // Food ID
-    // public string WebApp1UserId { get; set; }
+    [Required]
+    [StringLength(50)]
     public string Name { get; set; }
-    public int ServingSizeGrams { get; set; }
-    public int Calories { get; set; }
+    [Required]
     public DateTime Inserted { get; set; }
     
-    public Food Food { get; set; }
-    public WebApp1User WebApp1User { get; set; }
-    
+    public ICollection<Meal> Meal { get; set; }
 }

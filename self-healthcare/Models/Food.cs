@@ -12,9 +12,10 @@ public class Food
     [Required]
     [StringLength(50)]
     public string Name { get; set; }
+    [Required]
     public int ServingSizeGrams { get; set; }
+    [Required]
     public int Calories { get; set; }
-    public ICollection<Diet> Diets { get; set; }
     
 }
    

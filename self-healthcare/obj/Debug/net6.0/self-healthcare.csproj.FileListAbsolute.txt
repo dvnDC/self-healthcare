@@ -289,3 +289,11 @@
 /home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
 /home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/obj/Debug/net6.0/self-healthcare.MvcApplicationPartsAssemblyInfo.cs
 /home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/bin/Debug/net6.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/bin/Debug/net6.0/xunit.runner.reporters.netcoreapp10.dll
+/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/bin/Debug/net6.0/xunit.runner.utility.netcoreapp10.dll
+/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/bin/Debug/net6.0/AngleSharp.dll
+/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/bin/Debug/net6.0/xunit.abstractions.dll
+/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/bin/Debug/net6.0/xunit.assert.dll
+/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/bin/Debug/net6.0/xunit.core.dll
+/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/bin/Debug/net6.0/xunit.execution.dotnet.dll
