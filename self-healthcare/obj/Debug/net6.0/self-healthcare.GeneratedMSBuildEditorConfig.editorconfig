@@ -5,152 +5,155 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = new_self_healthcare
 build_property.RootNamespace = new_self_healthcare
-build_property.ProjectDir = /home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/
+build_property.ProjectDir = /Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare
+build_property.MSBuildProjectDirectory = /Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Areas/Identity/Pages/Account/Register.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Areas/Identity/Pages/_ViewImports.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Areas/Identity/Pages/_ViewStart.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Diets/Create.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Diets/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlldHMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Diets/Delete.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Diets/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlldHMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Diets/Details.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Diets/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlldHMvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Diets/Edit.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Diets/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlldHMvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Diets/Index.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Diets/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlldHMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Food/Create.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Food/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9vZC9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Food/Delete.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Food/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9vZC9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Food/Details.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Food/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9vZC9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Food/Edit.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Food/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9vZC9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Food/Index.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Food/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9vZC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/HelloWorld/Index.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/HelloWorld/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGVsbG9Xb3JsZC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/HelloWorld/Welcome.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/HelloWorld/Welcome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGVsbG9Xb3JsZC9XZWxjb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Home/Contact.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Home/Index.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Movies/Create.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Movies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Movies/Delete.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Movies/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Movies/Details.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Movies/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Movies/Edit.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Movies/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Movies/Index.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Movies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Shared/Error.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Shared/_Footer.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Shared/_LoginPartial.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Shared/_Navbar.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Shared/_Navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19OYXZiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/_ViewImports.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/_ViewStart.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dvn/Projects/RiderProjects/Self-healthcare/self-healthcare/self-healthcare/Views/Shared/_Layout.cshtml]
+[/Users/damiancichosz/Code/RiderProjects/foodall/self-healthcare/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tp819cvwda
