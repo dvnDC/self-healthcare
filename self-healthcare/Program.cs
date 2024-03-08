@@ -27,11 +27,26 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
+// Automatic migrations
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
+    var loggerFactory = services.GetRequiredService<ILoggerFactory>();
+    try
+    {
+        var selfHealthcareContext = services.GetRequiredService<SelfHealthcareContext>();
+        selfHealthcareContext.Database.Migrate();
 
-    SeedData.Initialize(services);
+        var identityDataContext = services.GetRequiredService<IdentityDataContext>();
+        identityDataContext.Database.Migrate();
+
+        SeedData.Initialize(services);
+    }
+    catch (Exception ex)
+    {
+        var logger = loggerFactory.CreateLogger<Program>();
+        logger.LogError(ex, "Wystąpił błąd podczas migracji bazy danych.");
+    }
 }
 
 // Configure the HTTP request pipeline.
