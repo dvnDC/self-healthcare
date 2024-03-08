@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("self-healthcare")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a2efeb6dad12378e69ee02e85197d62002766cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("self-healthcare")]
 [assembly: System.Reflection.AssemblyTitleAttribute("self-healthcare")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
