@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  app:
+    image: self-healthcare:latest
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    volumes:
+      - ../Data:/app/Data
+      - ../wwwroot:/app/wwwroot
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__SelfHealthcareContext=Data Source=/app/Data/SelfHealthcareContext-329af184-13f2-4563-b31e-20e8e5855ba4.db
+      - ConnectionStrings__IdentityDataContextConnection=Data Source=/app/Data/SelfHealthcareContext-329af184-13f2-4563-b31e-20e8e5855ba4.db
